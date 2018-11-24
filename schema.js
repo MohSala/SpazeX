@@ -1,4 +1,10 @@
-const {GraphQLObjectType, GraphQLInt, GraphQLString,GraphQLBoolean,GraphQLList,GraphQLSchema} = require('graphql');
+const {
+    GraphQLObjectType, 
+    GraphQLInt, 
+    GraphQLString,
+    GraphQLBoolean,
+    GraphQLList,
+    GraphQLSchema} = require('graphql');
 
 const axios = require('axios')
 
