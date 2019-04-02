@@ -6,6 +6,7 @@ const {
     GraphQLList,
     GraphQLSchema} = require('graphql');
 
+//require axios
 const axios = require('axios')
 
 //launch type
@@ -55,7 +56,7 @@ const RootQuery = new GraphQLObjectType({
         }
     }
 })
-
+//export the QLS
 module.exports = new GraphQLSchema({
     query: RootQuery
 });
